@@ -1,0 +1,49 @@
+- npm install: tạo lại thư mục node_modules
+- npm start: khởi chạy project
+- npm install jquery popper.js bootstrap@4.5.2 --save
+
+
+- Baitap2Component
+    - HeaderComponent
+    - CarouselComponent
+    - WWD
+    - Contact
+    - ListCardComponent
+        - Card
+    - FooterComponent
+
+- Baitap3Component
+    - Header
+    - Carousel
+    - ListSmartphone
+        - Phone
+        - Phone
+        - Phone
+        - Phone
+
+===== Buổi 1 ======
+* Component:
+    - Stateful Component => class
+    - Stateless Component => function
+
+===== Buổi 2 ======
+* Rendering Elements: {}
+* Handling Events:  onclick
+* State: nếu như state thay đổi => component sẽ render lại
+* List keys: duyệt mảng
+
+===== Buổi 3 ======
+* communication
+    - Props: Truyền dữ liệu từ Component cha => Component con
+            + class: Nhận props thông qua con trỏ this => this.props
+            + function: Nhận props thông qua tham số của function(props)
+                        Không còn tồn tại từ khóa this
+            + children: Nhận tất cả từ Component cha.
+    - Lifting State Up: Truyền dữ liệu từ Component con => Component cha
+                        Component cha truyền vào component con 1 props 
+                        => props mang hàm (hàm nay giúp cho component cha nhận được data từ component con)
+* Shopping cart
+
+===== Buổi 4 ======
+* Shopping cart
+* Usermanagement
